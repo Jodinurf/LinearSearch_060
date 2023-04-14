@@ -50,3 +50,6 @@ void LinearSearch()
 				break;
 			}
 		}
+		if (i == n) //langkah 5B not found
+			cout << "\n" << item << " not found in the array ";
+	
